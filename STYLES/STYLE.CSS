@@ -78,15 +78,15 @@ h2{
   text-align: center;
 }
   .wish{
+    text-transform: uppercase;
     color: rgb(226, 81, 231);
     font-weight: 900;
-    width: 100%;
+    width: auto; 
+     
+    
   }
-/* p {
-    margin: 0;
-    color: var(--body-font);
-    font-size: var(--big-font-size);
-    text-align: center;
+ p {
+    color:#fff
 }  */
 
 /* .wish{
@@ -104,7 +104,22 @@ img{
     display: inline;
     border-radius: 20px;
 }
-
+.flex-imgs{
+  display:flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.flex-comprs{
+  width: 11.5rem;
+  height: auto;
+  border-radius: 100px;
+}
+.don{
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  text-align:right;
+}
 /* CUSTOM CSS CLASSES */
 
 /* LAYOUT */
